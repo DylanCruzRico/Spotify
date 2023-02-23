@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menu {
+    width: 30%;
+    height: 80vh;
+    background-color: black;
+}
+
+.contenedor {
+    width: 70%;
+    height: 80vh;
+    background-color: grey;
+}
+
+
+.reproductor{
+    width: 100%;
+    height: 20vh;
+    background-color: darkslategrey;
+}
+
+.buscador{
+    width: 100;
+    height: 20%;    
+    background-color: blue;
+}
+
+.contenido{
+    width: 100%;
+    height: 80%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
